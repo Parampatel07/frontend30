@@ -1,0 +1,7 @@
+br = New line 
+b = Font bold 
+i = Italic fonts
+u = Underline fonts 
+strike = overline 
+&nbsp; = one space
+pre = as text as it 
