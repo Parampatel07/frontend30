@@ -20,3 +20,5 @@ tfoot = for table footer
 ol = for ordered list 
 ul = for unordered list 
 li = for list item 
+img = for images 
+iframe = for imagenary frame
