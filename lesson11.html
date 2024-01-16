@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Input Tags </title>
+     <!-- input , select , textarea  -->
+</head>
+
+<body>
+     <h1 align="center">
+          Login Form
+     </h1>
+     <hr>
+     <!-- get  (default) -->
+     <!-- Post (large input , confidentials data , image , files )-->
+     <form action="lesson10.html" method="post" enctype="multipart/form-data">
+          <table border="2" align="center" width="50%" cellpadding="10">
+               <tr>
+                    <td colspan="2" align="center">
+                         <h2>Login</h2>
+                    </td>
+               </tr>
+               <tr>
+                    <td>
+                         Enter your Email
+                    </td>
+                    <td>
+                         <input type="email" name="user_email" id="" required placeholder="Enter your email">
+                    </td>
+               </tr>
+               <tr>
+                    <td>
+                         Enter your Password
+                    </td>
+                    <td>
+                         <input type="password" name="user_pwd" id="" required placeholder="Password must 8 character">
+                    </td>
+               </tr>
+               <tr>
+                    <td colspan="2" align="center">
+                         <input type="submit" name="btn" value="Login" id="">
+                    </td>
+               </tr>
+          </table>
+     </form>
+</body>
+
+</html>
+<!-- file:///G:/frontend%20collection/frontend30/lesson11.html?user_email=param%40gmail.com&user_pwd=123123&btn=Login -->
