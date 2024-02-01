@@ -1,0 +1,15 @@
+p {
+     font-size: 1.5rem;
+     margin: 20px;
+     background-color: rgb(255, 220, 220);
+     border-radius: 30px;
+     padding: 20px;
+}
+
+.odd_p {
+     background-color: rgb(255, 186, 186);
+}
+
+.even_p {
+     background-color: rgb(195, 195, 255);
+}
