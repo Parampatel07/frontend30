@@ -1,0 +1,46 @@
+* {
+     margin: 0px;
+     padding: 0px;
+}
+
+.logo_image {
+     height: 100px;
+}
+
+a:visited {
+     color: white;
+}
+
+nav {
+     background-color: #102148;
+     padding-left: 20px;
+     padding-right: 20px;
+     color: white;
+     display: flex;
+     justify-content: space-between;
+}
+
+#menu_logo {
+     display: flex;
+}
+
+#menu_text {
+     margin-top: 30px;
+     font-size: 2.5rem;
+     font-family: 'Acme', sans-serif;
+     text-transform: uppercase;
+}
+
+#menu_links
+{
+     margin-top: 40px;
+}
+
+.links
+{
+     margin-right: 60px;
+     font-size: 1.5rem;
+     text-decoration: none;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: bold;
+}
