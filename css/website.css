@@ -3,6 +3,10 @@
      padding: 0px;
 }
 
+body {
+     background-color: #170A35;
+}
+
 .logo_image {
      height: 100px;
 }
@@ -31,16 +35,91 @@ nav {
      text-transform: uppercase;
 }
 
-#menu_links
-{
+#menu_links {
      margin-top: 40px;
 }
 
-.links
-{
+.links {
      margin-right: 60px;
      font-size: 1.5rem;
      text-decoration: none;
      font-family: 'Montserrat', sans-serif;
      font-weight: bold;
+}
+
+a:hover {
+     color: #10F7FF;
+     padding: 10px;
+     border-radius: 20px;
+     box-shadow: #10F7FF 0px 50px 100px -20px, #10F7FF 0px 30px 60px -30px, #10F7FF 0px -2px 6px 0px inset;
+}
+
+a:active {
+     color: white;
+     padding: 10px;
+     border-radius: 20px;
+     box-shadow: white 0px 50px 100px -20px, white 0px 30px 60px -30px, white 0px -2px 6px 0px inset;
+}
+
+#banner_image1 {
+     height: 523px;
+     width: 750px;
+}
+
+#banner_image2,
+#banner_image3 {
+     height: 250px;
+     width: 400px;
+}
+
+#banner_image3 {
+     margin-top: 20px;
+}
+
+#banner {
+     display: flex;
+     margin: 30px;
+     gap: 30px;
+}
+
+#aboutus {
+     height: 1000px;
+     margin: 70px;
+}
+
+.my_heading {
+     color: white;
+     font-size: 7rem;
+}
+
+.heading {
+     display: flex;
+     gap: 30px;
+     font-family: 'Protest Guerrilla', sans-serif;
+     letter-spacing: 2px;
+}
+
+#text2 {
+     margin-top: 50px;
+     color: #FBD622;
+}
+
+.paragraph {
+     color: white;
+     font-size: 1.5rem;
+     margin-top: 80px;
+     font-family: 'Titillium Web', sans-serif;
+}
+
+#aboutus_content
+{
+     display: flex;
+     gap: 50px;
+}
+
+#aboutus_image
+{
+     margin-top: -40px;
+     height: 400px;
+     width: 400px;
 }
