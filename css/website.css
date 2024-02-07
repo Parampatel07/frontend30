@@ -83,8 +83,10 @@ a:active {
 }
 
 #aboutus {
-     height: 1000px;
-     margin: 70px;
+     margin-top: 70px;
+     margin-left: 70px;
+     margin-right: 70px;
+     margin-bottom: 40px;
 }
 
 .my_heading {
@@ -111,15 +113,50 @@ a:active {
      font-family: 'Titillium Web', sans-serif;
 }
 
-#aboutus_content
-{
+#aboutus_content {
      display: flex;
      gap: 50px;
 }
 
-#aboutus_image
-{
+#aboutus_image {
      margin-top: -40px;
      height: 400px;
      width: 400px;
+}
+
+#popular_games {
+     height: 1000px;
+     padding-left: 50px;
+     padding-right: 50px;
+     color: white;
+}
+
+.cut_card {
+     width: 100%;
+     background-color: #101018;
+     height: 500px;
+     clip-path: polygon(100% 0, 100% 26%, 90% 37%, 90% 64%, 100% 77%, 100% 100%, 9% 100%, 0 83%, 0 36%, 0 0);
+     background-image: url("../images/popular_background.jpeg");
+     background-size: cover;
+     box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+#popular_heading {
+     padding: 50px;
+     display: flex;
+     justify-content: space-between;
+}
+
+.heading1 {
+     font-family: 'Acme', sans-serif;
+     font-size: 2.7rem;
+
+}
+
+.tag {
+     display: flex;
+     padding: 20px;
+     background-color: #200C3B;
+     border-radius: 40px;
+     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
