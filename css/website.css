@@ -205,8 +205,16 @@ a:active {
      margin-top: 50px;
      height: 300px;
      width: 300px;
-     background-color: #21F5FF;
+     background: rgb(16, 16, 106);
+     background: -moz-linear-gradient(27deg, rgba(16, 16, 106, 1) 18%, rgba(43, 109, 161, 1) 46%, rgba(69, 122, 252, 1) 70%);
+     background: -webkit-linear-gradient(27deg, rgba(16, 16, 106, 1) 18%, rgba(43, 109, 161, 1) 46%, rgba(69, 122, 252, 1) 70%);
+     background: linear-gradient(27deg, rgba(16, 16, 106, 1) 18%, rgba(43, 109, 161, 1) 46%, rgba(69, 122, 252, 1) 70%);
+     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#10106a", endColorstr="#457afc", GradientType=1);
      border-radius: 300px;
+     font-size: 2.5rem;
+     font-family: 'Acme', sans-serif;
+     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
 }
 
 .teammate {
@@ -215,8 +223,90 @@ a:active {
      border-radius: 250px;
 }
 
-.team_parent
-{
+.team_parent {
      display: flex;
      justify-content: space-between;
+}
+
+.teamate_logo {
+     height: 100px;
+     margin-top: -30px;
+     margin-bottom: -30px;
+}
+
+#teammate1_image2,
+#teammate2_image2,
+#teammate3_image2 {
+     display: none;
+}
+
+#teammate_info1 {
+     display: none;
+}
+
+#teammate1:hover {
+     background: rgb(176, 187, 25);
+     background: -moz-linear-gradient(27deg, rgba(176, 187, 25, 1) 18%, rgba(160, 161, 43, 1) 46%, rgba(252, 238, 69, 1) 70%);
+     background: -webkit-linear-gradient(27deg, rgba(176, 187, 25, 1) 18%, rgba(160, 161, 43, 1) 46%, rgba(252, 238, 69, 1) 70%);
+     background: linear-gradient(27deg, rgba(176, 187, 25, 1) 18%, rgba(160, 161, 43, 1) 46%, rgba(252, 238, 69, 1) 70%);
+     
+
+     #teammate_info1 {
+          display: block;
+     }
+
+     #teammate1_image {
+          display: none;
+     }
+
+     #teammate1_image2 {
+          display: block;
+     }
+}
+
+#teammate_info2 {
+     display: none;
+}
+
+#teammate2:hover {
+     background: rgb(176, 187, 25);
+     background: -moz-linear-gradient(27deg, rgba(176, 187, 25, 1) 18%, rgba(160, 161, 43, 1) 46%, rgba(252, 238, 69, 1) 70%);
+     background: -webkit-linear-gradient(27deg, rgba(176, 187, 25, 1) 18%, rgba(160, 161, 43, 1) 46%, rgba(252, 238, 69, 1) 70%);
+     background: linear-gradient(27deg, rgba(176, 187, 25, 1) 18%, rgba(160, 161, 43, 1) 46%, rgba(252, 238, 69, 1) 70%);
+
+     #teammate_info2 {
+          display: block;
+     }
+
+     #teammate2_image {
+          display: none;
+     }
+
+     #teammate2_image2 {
+          display: block;
+     }
+}
+
+#teammate_info3 {
+     display: none;
+}
+
+#teammate3:hover {
+
+     background: rgb(176, 187, 25);
+     background: -moz-linear-gradient(27deg, rgba(176, 187, 25, 1) 18%, rgba(160, 161, 43, 1) 46%, rgba(252, 238, 69, 1) 70%);
+     background: -webkit-linear-gradient(27deg, rgba(176, 187, 25, 1) 18%, rgba(160, 161, 43, 1) 46%, rgba(252, 238, 69, 1) 70%);
+     background: linear-gradient(27deg, rgba(176, 187, 25, 1) 18%, rgba(160, 161, 43, 1) 46%, rgba(252, 238, 69, 1) 70%);
+
+     #teammate_info3 {
+          display: block;
+     }
+
+     #teammate3_image {
+          display: none;
+     }
+
+     #teammate3_image2 {
+          display: block;
+     }
 }
