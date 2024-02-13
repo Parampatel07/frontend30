@@ -391,15 +391,98 @@ h3 {
 }
 
 #contact_us {
-     height: 1000px;
+     /* height: 1000px; */
      padding: 70px;
 }
 
 #contact_form {
      height: 500px;
      width: 500px;
+     background: rgb(16, 16, 106);
+     background: -moz-linear-gradient(27deg, rgba(16, 16, 106, 1) 18%, rgba(43, 109, 161, 1) 46%, rgba(69, 122, 252, 1) 70%);
+     background: -webkit-linear-gradient(27deg, rgba(16, 16, 106, 1) 18%, rgba(43, 109, 161, 1) 46%, rgba(69, 122, 252, 1) 70%);
+     background: linear-gradient(27deg, rgba(16, 16, 106, 1) 18%, rgba(43, 109, 161, 1) 46%, rgba(69, 122, 252, 1) 70%);
+     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#10106a", endColorstr="#457afc", GradientType=1);
 }
 
 #content_contact {
      display: flex;
+     gap: 30px;
+}
+
+#contact_logo {
+     height: 100px;
+}
+
+.contact_heading {
+     display: flex;
+}
+
+.content_heading_text {
+     margin-top: 30px;
+     font-size: 2.2rem;
+     font-family: 'Acme', sans-serif;
+     color: white;
+}
+
+#form {
+     padding: 30px;
+     font-size: 1.5rem;
+     color: white;
+     font-family: 'Montserrat', sans-serif;
+}
+
+.myinput {
+     width: 100%;
+     height: 40px;
+     margin-top: 10px;
+     margin-bottom: 30px;
+}
+
+.mytextarea {
+     margin-top: 10px;
+}
+
+
+/* CSS */
+.button-34 {
+     margin-top: 20px;
+     background: rgb(16, 16, 106);
+     background: -moz-linear-gradient(27deg, rgba(16, 16, 106, 1) 18%, rgba(43, 109, 161, 1) 46%, rgba(69, 122, 252, 1) 70%);
+     background: -webkit-linear-gradient(27deg, rgba(16, 16, 106, 1) 18%, rgba(43, 109, 161, 1) 46%, rgba(69, 122, 252, 1) 70%);
+     background: linear-gradient(27deg, rgba(16, 16, 106, 1) 18%, rgba(43, 109, 161, 1) 46%, rgba(69, 122, 252, 1) 70%);
+     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#10106a", endColorstr="#457afc", GradientType=1);
+     border-radius: 999px;
+     box-shadow: #5E5DF0 0 10px 20px -10px;
+     box-sizing: border-box;
+     color: #FFFFFF;
+     cursor: pointer;
+     font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+     font-size: 16px;
+     font-weight: 700;
+     line-height: 24px;
+     opacity: 1;
+     outline: 0 solid transparent;
+     padding: 8px 18px;
+     user-select: none;
+     -webkit-user-select: none;
+     touch-action: manipulation;
+     width: fit-content;
+     word-break: break-word;
+     border: 0;
+}
+
+#footer {
+     height: 45px;
+     background-color: #111;
+     padding: 40px;
+     color: white;
+     font-family: 'Acme', sans-serif;
+     
+}
+
+#footer>div
+{
+     font-size: 1.5rem;
+     margin-top: 30px;
 }
